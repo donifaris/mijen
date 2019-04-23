@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".sayur">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/sayur3"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Kampung sayur merupakan kampung tematik yang berada di Kelurahan Cangkiran yang mana warga setempat memberdayakan lahan yang sempit untuk diisi tanaman-tanaman yang bermanfaat. Selain tanaman tersebut bermanfaat tempat tersebut juga layak untuk dikunjungi dikarenakan kampung sayur terlihat sejuk, serta berwarna warni dan bisa digunakan untuk selfie beraneka ragam tanaman" />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/sayur1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="530dp"
+                android:background="@drawable/sayur2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

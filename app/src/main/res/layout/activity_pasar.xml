@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".pasar">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/pasar1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Pasar ace yang terletak dibandungsari RT 03 RW 04 kelurahan tambangan merupakan pasar musiman yang menjual durian dan rambutan pada tiap tahunnya , pasar ace merupakan milik perorangan yang disewakan oleh para pedagang untuk berjualan di lokasi tersebut." />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="290dp"
+                android:background="@drawable/pasar2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="535dp"
+                android:background="@drawable/pasar3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

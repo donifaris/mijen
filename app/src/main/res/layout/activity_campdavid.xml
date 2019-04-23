@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".campdavid">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/david1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Penginapan layaknya tempat wisata yang menawarkan sensasi nyaman seperti berada di rumah dengan fasilitas lengkap serta servicing yang memuaskan. Tersedia taman bermain, kolam renang anak dan dewasa serta tempat untuk acara penting lainnya.\n
+                Fasilitas = aula full AC dan alat musik-meeting room-kamar full ac-cafe dan resto-kolam renang-kolam pancing-fitness centde-atv-sauna dll \n
+Info dan reservasi = jln. Krajan selatan 54-58 kel.wonolopo kec.mijen semarang 50213 (024) 76680006 / campdavidsmg@gmail.com
+                ." />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="440dp"
+                android:background="@drawable/david3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="685dp"
+                android:background="@drawable/david2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

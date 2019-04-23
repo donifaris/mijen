@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".sekopek">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="270dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/sekopek1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+
+                android:text="                                                                                                                         \n
+Harga Sewaktu Waktu Dapat Berubah\n
+* Goreng\n
+- Bawal : Rp 60.000\n
+- Karper : Rp 65.000\n
+- Gurami : Rp 84.000\n
+• Bakar\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Bumbu Saus\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Bumbu Acar\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Bumbu Bali\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Bumbu Lombok Ijo\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Bumbu Asam Pedas\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Sop Ikan\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Asem-asem Ikan\n
+- Lele : Rp 60.000\n
+- Nila : Rp 70.000\n
+- Bawal : Rp 63.000\n
+- Karper : Rp 68.000\n
+- Gurami : Rp 87.000\n
+\n
+• Segar\n
+- Lele : Rp 47.000\n
+- Nila : Rp 58.000\n
+- Bawal : Rp 51.000\n
+- Karper : Rp 55.000\n
+" />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="1390dp"
+                android:background="@drawable/sekopek2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="1635dp"
+                android:background="@drawable/sekopek3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="1890dp"
+                android:background="@drawable/sekopek4"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".kampungsawah">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/sawah1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Kampung sawah merupakan kampung tematik yang terdapat di Kelurahan Tambangan.Kampung sawah mempunyai pemandangan yang sangat indah dan sejuk,di dalamnya Terdapat lambang love atau hati yang cocok untuk foto dengan pasangan kamu, selain itu Trek menuju lambang love juga tidak kalah bagusnya untuk selfie bersama dengan pasangan, keluarga atau teman-teman" />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/sawah2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="530dp"
+                android:background="@drawable/sawah3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

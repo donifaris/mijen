@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".naga">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/naga2"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Kampung Buah Naga merupakan Kampung tematik di Kelurahan Karangmalang Kecamatan Mijen Kota Semarang. Di dalamnya banyak buah naga yang siap dipetik langsung dari kampung buah naga, sangat cocok untuk berwisata bersama keluarga untuk mengenalkan dan memberikan edukasi pada anak sekaligus berefreshing bersama keluarga" />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="305dp"
+                android:background="@drawable/naga1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="550dp"
+                android:background="@drawable/naga3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="805dp"
+                android:background="@drawable/naga4"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

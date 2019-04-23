@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".labu">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="230dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/labu2"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="230dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Kampung Konveksi merupakan Kampung tematik di Kelurahan Purwosari Kecamatan Mijen Kota Semarang. Kampung Konveksi merupakan kampung produktif khususnya dalam bidang sandangan. Di Kampung konveksi banyak warga yang mempunyai usaha konveksi baik kaos maupun celana. Bagi masyarakat yang membutuhkan jasa konveksi, kampung konveksi bisa menjadi pilihan." />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/labu1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="570dp"
+                android:background="@drawable/labu3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="830dp"
+                android:background="@drawable/labu4"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradien_background"
+    android:layout_height="match_parent"
+    tools:context=".gamaresto">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/gama1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Gama Candi Resto Spesial Ikan Bakar relokasi dari Jalan Sultan Agung 105 ke BSB City Semarang, tepatnya di di Jl CBD Barat 3 No 1 Bukit Semarang Baru, Senin (12/11/2018).\n
+Gama Candi Resto BSB City pun menjelma menjadi tempat yang bukan hanya sekadar untuk makan, tapi sebagai destinasi wisata kuliner dan berekreasi yang mengasyikkan.\n
+Gama Candi Resto BSB City cocok untuk segala keperluan, seperti merayakan ulang tahun, meeting kantor, launching produk, pertemuan keluarga, dan bahkan untuk pesta pernikahan." />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="405dp"
+                android:background="@drawable/gama2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="650dp"
+                android:background="@drawable/gama3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

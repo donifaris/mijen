@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".tape">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/tape3"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Kampung Hasil Bumi merupakan kampung tematik kelurahan Polaman yang khususnya kampung hasil tape. Kampung tersebut memproduksi beberapa olahan tape seperti tape Ketan, tape ketela pohon dll. Tidak hanya itu saja kampung termatik Hasil bumi juga memproduksi hasil bumi yang melimpah.    " />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="290dp"
+                android:background="@drawable/tape"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="495dp"
+                android:background="@drawable/tape1"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="700dp"
+                android:background="@drawable/tape2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

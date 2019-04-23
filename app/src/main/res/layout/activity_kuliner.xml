@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".kuliner">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="146dp"
+
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="98dp"
+        android:src="@drawable/hebat"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+   <ScrollView
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent">
+       <RelativeLayout
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent">
+           <ImageView
+               android:id="@+id/imageView21"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="150dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_sekopek"
+               android:onClick="sekopek"/>
+
+           <ImageView
+               android:id="@+id/imageView22"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="330dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_gebyar"
+               android:onClick="gs"/>
+           <ImageView
+               android:id="@+id/imageView27"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="510dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_nirwana"
+               android:onClick="nirwana"/>
+
+           <ImageView
+               android:id="@+id/imageView23"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="690dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_lakers"
+               android:onClick="lakers"/>
+
+           <ImageView
+               android:id="@+id/imageView24"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="870dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_gama"
+               android:onClick="gama"/>
+           <ImageView
+           android:id="@+id/imageView25"
+           android:layout_width="348dp"
+           android:layout_height="300dp"
+           android:layout_marginStart="32dp"
+           android:layout_marginTop="1050dp"
+           android:layout_marginEnd="33dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+
+           app:srcCompat="@drawable/kuliner_susu"
+           />
+           <ImageView
+               android:id="@+id/imageView"
+               android:layout_width="348dp"
+               android:layout_height="300dp"
+               android:layout_marginStart="32dp"
+               android:layout_marginTop="1230dp"
+               android:layout_marginEnd="33dp"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+
+               app:srcCompat="@drawable/kuliner_pasar"
+               android:onClick="pasar"/>
+       </RelativeLayout>
+   </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradien_background"
+    tools:context=".sirkuit">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ImageView
+                android:layout_width="900dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/mx1"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:textColor="@android:color/white"
+                android:background="#99141414"
+                android:textAlignment="center"
+                android:text="Sebuah sirkuit kelas nasional dibangun di Kota Semarang, Jawa Tengah. Sirkuit itu digadang-gadang menjadi lintasan balap panoramik dengan pemandangan cantik kawasan pegunungan.\n
+    Sirkuit dibangun di atas lahan seluas 5,1 hektare dengan panjang lintasan sekitar 2,7 kilometer. Kawasan itu merupakan daerah gunung yang banyak ditumbuhi pohon-pohon hijau.\n
+    Sirkuit ini bisa dipakai tempat berkumpulnya komunitas anak muda yang suka dunia otomotif. Bisa untuk road race, gocart, drag race, slalom, dan lainnya denga panjang lintasan sekitar 1,6 kiilometer. Selain untuk balapan, juga ada panggung besar yang bisa dipakai oleh anak-anak muda saat liburan atau mengisi kekosongan dengan kegiatan-kegiatan positif.
+" />
+
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="240dp"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/mx3"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+            <ImageView
+                android:layout_width="3000dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="705dp"
+                android:background="@drawable/mx2"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

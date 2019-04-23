@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mijenhebat">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Mijen Hebat"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".lakers" />
+        <activity android:name=".gamaresto" />
+        <activity android:name=".sodong" />
+        <activity android:name=".jatiombo" />
+        <activity android:name=".sirkuit" />
+        <activity android:name=".paweningjati" />
+        <activity android:name=".pendopokinanti" />
+        <activity android:name=".kebunanggrek" />
+        <activity android:name=".pasar" />
+        <activity android:name=".labu" />
+        <activity android:name=".anyaman" />
+        <activity android:name=".nirwanastable" />
+        <activity android:name=".omahgajah" />
+        <activity android:name=".campdavid" />
+        <activity android:name=".buah" />
+        <activity android:name=".gebyarsumiah" />
+        <activity android:name=".sekopek" />
+        <activity android:name=".jajanan" />
+        <activity android:name=".durian" />
+        <activity android:name=".pandebesi" />
+        <activity android:name=".konveksi" />
+        <activity android:name=".mebel" />
+        <activity android:name=".naga" />
+        <activity android:name=".anggrek" />
+        <activity android:name=".sayur" />
+        <activity android:name=".tape" />
+        <activity android:name=".jamu" />
+        <activity android:name=".kampungsawah" />
+        <activity android:name=".edukasi" />
+        <activity android:name=".splasscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".kuliner" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity" />
+
+    </application>
+
+</manifest>
